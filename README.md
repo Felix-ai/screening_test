@@ -26,7 +26,7 @@ The data are often organized as follows with the results of the screening test s
 | Total | 10 | 4,800 |4,810 |
 
 
-#### Sensitivity and Specificity
+#### Sensitivity and Specificity (Performance Characteristics)
 
 Screening tests are not diagnostic, but instead may identify individuals more likely to have a certain condition. There are two measures that are commonly used to evaluate the performance of screening tests: the sensitivity and specificity of the test. The sensitivity of the test reflects the probability that the screening test will be positive among those who are diseased. In contrast, the specificity of the test reflects the probability that the screening test will be negative among those who, in fact, do not have the disease
 
@@ -34,11 +34,11 @@ The false positive fraction is `1 - specificity` and the false negative fraction
 
 * Sensitivity = Recall = True Positive Fraction = P(Screen Positive | Affected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{9}{10} = 0.900">
 
-* False Negative Fraction = P(Screen Negative | Affected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{10} = 0.100">
+* False Negative Fraction = Type II Error = <img src="https://render.githubusercontent.com/render/math?math=\beta"> = P(Screen Negative | Affected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{10} = 0.100">
 
 * Specificity = True Negative Fraction = P(Screen Negative | Unaffected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{4,449}{4,800} = 0.927">
 
-* False Positive Fraction = P(Screen Positive | Unaffected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{351}{4,800} = 0.073">
+* False Positive Fraction = Type I Error = <img src="https://render.githubusercontent.com/render/math?math=\alpha"> = P(Screen Positive | Unaffected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{351}{4,800} = 0.073">
 
 **Interpretation:**
 
