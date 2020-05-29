@@ -32,13 +32,13 @@ Screening tests are not diagnostic, but instead may identify individuals more li
 
 The false positive fraction is `1 - specificity` and the false negative fraction is `1 - sensitivity`.
 
-* Sensitivity = Recall = True Positive Fraction = P(Screen Positive | Affected Fetus) = $\frac{9}{10} = 0.900$
+* Sensitivity = Recall = True Positive Fraction = P(Screen Positive | Affected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{9}{10} = 0.900">
 
-* False Negative Fraction = P(Screen Negative | Affected Fetus) = $\frac{1}{10} = 0.100$
+* False Negative Fraction = P(Screen Negative | Affected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{1}{10} = 0.100">
 
-* Specificity = True Negative Fraction = P(Screen Negative | Unaffected Fetus) = $\frac{4,449}{4,800} = 0.927$
+* Specificity = True Negative Fraction = P(Screen Negative | Unaffected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{4,449}{4,800} = 0.927">
 
-* False Positive Fraction = P(Screen Positive | Unaffected Fetus) = $\frac{351}{4,800} = 0.073$
+* False Positive Fraction = P(Screen Positive | Unaffected Fetus) = <img src="https://render.githubusercontent.com/render/math?math=\frac{351}{4,800} = 0.073">
 
 **Interpretation:**
 
