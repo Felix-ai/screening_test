@@ -30,15 +30,15 @@ The data are often organized as follows with the results of the screening test s
 
 Screening tests are not diagnostic, but instead may identify individuals more likely to have a certain condition. There are two measures that are commonly used to evaluate the performance of screening tests: the sensitivity and specificity of the test. The sensitivity of the test reflects the probability that the screening test will be positive among those who are diseased. In contrast, the specificity of the test reflects the probability that the screening test will be negative among those who, in fact, do not have the disease
 
-The false positive fraction is 1-specificity and the false negative fraction is 1-sensitivity.
+The false positive fraction is `1 - specificity` and the false negative fraction is `1 - sensitivity`.
 
-* Sensitivity = Recall = True Positive Fraction = P(Screen Positive | Affected Fetus) = 9/10 = 0.900
+* Sensitivity = Recall = True Positive Fraction = P(Screen Positive | Affected Fetus) = $\frac{9}{10} = 0.900$
 
-* False Negative Fraction = P(Screen Negative | Affected Fetus) = 1/10 = 0.100
+* False Negative Fraction = P(Screen Negative | Affected Fetus) = $\frac{1}{10} = 0.100$
 
-* Specificity = True Negative Fraction = P(Screen Negative | Unaffected Fetus) = 4,449/4,800 = 0.927
+* Specificity = True Negative Fraction = P(Screen Negative | Unaffected Fetus) = $\frac{4,449}{4,800} = 0.927$
 
-* False Positive Fraction = P(Screen Positive | Unaffected Fetus) = 351/4,800 = 0.073
+* False Positive Fraction = P(Screen Positive | Unaffected Fetus) = $\frac{351}{4,800} = 0.073$
 
 **Interpretation:**
 
@@ -58,9 +58,9 @@ The sensitivity and false positive fractions are often reported for screening te
 
 Consider the results of a screening test from the patient's perspective! If the screening test is positive, the patient wants to know "What is the probability that I actually have the disease?" And if the test is negative, astute patients may ask, "What is the probability that I do not actually have disease if my test comes back negative?"
 
-* Positive Predictive Value = Precision = P(Affected Fetus | Screen Positive) = 9/360 = 0.025
+* Positive Predictive Value = Precision = P(Affected Fetus | Screen Positive) = $\frac{9}{360} = 0.025$
 
-* Negative Predictive Value = P(Unaffected | Screen Negative) = 4,449/4,450 = 0.999
+* Negative Predictive Value = P(Unaffected | Screen Negative) = $\frac{4,449}{4,450} = 0.999$
 
 **Interpretation:**
 
@@ -72,4 +72,4 @@ Consider the results of a screening test from the patient's perspective! If the 
 
 The sensitivity and specificity of a screening test are characteristics of the test's performance at a given cut-off point (criterion of positivity). However, the positive predictive value of a screening test will be influenced not only by the sensitivity and specificity of the test, but also by the prevalence of the disease in the population that is being screened. This is due to the fact that as the disease becomes more prevalent, subjects are more frequently in the "affected" or "diseased" column, so the probability of disease among subjects with positive tests will be higher.
 
-In this example, the prevalence of Down Syndrome in the population of `N=4,810` women is 10/4,810 = 0.002 (i.e., in this population Down Syndrome affects `2 per 1,000 fetuses`). While this screening test has good performance characteristics (sensitivity of `90.0%` and specificity of `92.7%`), the prevalence of the condition is low, so even a test with a high sensitivity and specificity has a low positive predictive value.
+In this example, the prevalence of Down Syndrome in the population of `N=4,810` women is $\frac{10}{4,810} = 0.002$ (i.e., in this population Down Syndrome affects `2 per 1,000 fetuses`). While this screening test has good performance characteristics (sensitivity of `90.0%` and specificity of `92.7%`), the prevalence of the condition is low, so even a test with a high sensitivity and specificity has a low positive predictive value.
