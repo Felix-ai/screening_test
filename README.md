@@ -58,9 +58,9 @@ The sensitivity and false positive fractions are often reported for screening te
 
 Consider the results of a screening test from the patient's perspective! If the screening test is positive, the patient wants to know "What is the probability that I actually have the disease?" And if the test is negative, astute patients may ask, "What is the probability that I do not actually have disease if my test comes back negative?"
 
-* Positive Predictive Value = Precision = P(Affected Fetus | Screen Positive) = $\frac{9}{360} = 0.025$
+* Positive Predictive Value = Precision = P(Affected Fetus | Screen Positive) = <img src="https://render.githubusercontent.com/render/math?math=\frac{9}{360} = 0.025">
 
-* Negative Predictive Value = P(Unaffected | Screen Negative) = $\frac{4,449}{4,450} = 0.999$
+* Negative Predictive Value = P(Unaffected | Screen Negative) = <img src="https://render.githubusercontent.com/render/math?math=\frac{4,449}{4,450} = 0.999">
 
 **Interpretation:**
 
@@ -72,4 +72,4 @@ Consider the results of a screening test from the patient's perspective! If the 
 
 The sensitivity and specificity of a screening test are characteristics of the test's performance at a given cut-off point (criterion of positivity). However, the positive predictive value of a screening test will be influenced not only by the sensitivity and specificity of the test, but also by the prevalence of the disease in the population that is being screened. This is due to the fact that as the disease becomes more prevalent, subjects are more frequently in the "affected" or "diseased" column, so the probability of disease among subjects with positive tests will be higher.
 
-In this example, the prevalence of Down Syndrome in the population of `N=4,810` women is $\frac{10}{4,810} = 0.002$ (i.e., in this population Down Syndrome affects `2 per 1,000 fetuses`). While this screening test has good performance characteristics (sensitivity of `90.0%` and specificity of `92.7%`), the prevalence of the condition is low, so even a test with a high sensitivity and specificity has a low positive predictive value.
+In this example, the prevalence of Down Syndrome in the population of `N=4,810` women is <img src="https://render.githubusercontent.com/render/math?math=\frac{10}{4,810} = 0.002"> (i.e., in this population Down Syndrome affects `2 per 1,000 fetuses`). While this screening test has good performance characteristics (sensitivity of `90.0%` and specificity of `92.7%`), the prevalence of the condition is low, so even a test with a high sensitivity and specificity has a low positive predictive value.
